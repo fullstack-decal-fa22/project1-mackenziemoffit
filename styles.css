@@ -1,0 +1,124 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.introsection {
+    display: flex;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LifeThings {
+    display: grid;
+    background-color: lightskyblue;
+    grid-template-columns: 470px 470px 470px;
+    padding: 5px;
+    margin-top: 160px;
+}
+
+.grid-item {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 40px;
+    font-size: 120%;
+    margin: 50px;
+  }
+
+.a {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+  .b {
+    grid-column: 3 ;
+    grid-row: 1 / 3;
+  }
+  .c {
+    grid-column: 1 ;
+    grid-row: 2 ;
+  }
+  .d {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+/*.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  } */
+
+
+.nameandintro {
+    border-style: solid;
+    border-color: yellow;
+    border-width: 5px;
+    background-color: lightgrey;
+    color: black;
+    padding: 10px;
+}
+
+
+.infoonself {
+    margin-top: -180px;
+    color: black;
+    font-size: 20px;
+}
+
+.formforvisitor {
+    border-color: rgb(63, 135, 63);
+    border-style: double;
+    padding: 10px;
+    margin-right: 500px;
+}
+
+#nameintro {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#title {
+    margin-left: 10px;
+    font-size: smaller;
+    font-family: cursive;
+}
+
+#introdescription {
+    size: smaller;
+    margin-left: 10px;
+}
+
+#myimage {
+    margin-top: 40px;
+    height: 400px;
+    width: 300px;
+}
+
+#myimage:hover {
+    transform: translate(-30px, -20px) rotate(20deg) scale(1.2,1.2);
+}
+
+#piccaption {
+    font-size: smaller;
+}
+
+a {
+    font-size: 14px;
+    color: rgb(63, 135, 63);
+}
+
+button {
+    background-color: lightskyblue; 
+    font-size: 90%;
+}
+
+form {
+    background-color: rgb(171, 34, 34);
+    color: rgb(255, 255, 255);
+}

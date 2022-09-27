@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta name="mackenzie moffit website" content="Info on Mackenzie">
+        <title>Mackenzie Moffit Website</title>
+        <author>Mackenzie Moffit</author>
+        <head>
+            <link rel="stylesheet" href="styles.css">
+        </head>
+    </head>
+    <body>
+        <br><br><br><br><br><br><br>
+        <div class="introsection">
+            <div class="nameandintro">
+                <h2 id= "title">My personal website.</h2>
+                <h1 id = "nameintro">Mackenzie Moffit</h1>
+                <h4 id = "introdescription"> Hi! I'm 21 years old and a student studying Data Science and Public Health @ UC Berkeley. </h4>
+                <br>
+                <button id = "movie button" onclick=myalert()>Click here for a list of my favorite movies!</button> 
+                <script>
+                    function myalert() {
+                        alert("(500) Days of Summer, Call me by your Name, Parasite, The Truman Show, The Matrix, Spirited Away");
+                    }
+                </script>
+                <br>
+                <br>
+                <button id = "show button" onclick=myalert2()>Click here for a list of my favorite tv shows!</button> 
+                <script>
+                    function myalert2() {
+                        alert("New Girl, The Good Place, Big Mouth, The Office, Stranger Things");
+                    }
+                </script>
+                <br>
+                <br>
+                <form class = "formforvisitor">
+                    <label for="fave_movie">What's your favorite movie?</label>
+                    <br>
+                    <input type="text" id="fave_movie" name="fave_movie">
+                    <br>
+                    <label for="fave_show">What's your favorite tv show?</label>
+                    <br>
+                    <input type="text" id="fave_show" name="fave_show"><br><br>
+                    <input type="submit" value="Submit" onclick=alert3()>
+                </form>
+                <script>
+                    function alert3() {
+                        alert("Thanks! Very cool!");
+                    }
+                </script>
+            </div>
+            <div class="infoonself">
+                <h5 id= "personalinfo">Contact Information:</h5>
+                <h6 id = "email">mackenzie.moffit@berkeley.edu</h6>
+                <h6 id = "phonenum">(805) 630-3006</h6>
+                <a id = "linkedin" target="_blank" href="https://www.linkedin.com/in/mackenzie-moffit/">LinkedIn</a>
+                <br>
+                <a id = "goodreads" target="_blank" href="https://www.goodreads.com/user/show/51120540-mackenzie">Goodreads</a>
+                <br>
+                <a id = "github" target="_blank" href="https://github.com/mackenziemoffit">GitHub</a>
+            </div>
+            <div class = "pictureofmyself">
+                <img id = "myimage" src= "IMG_3183.jpg" alt="my image" height="250"/>
+                <p id="piccaption">Me in Rome, Italy this past summer.</p>
+            </div>
+        </div>
+
+        <div class="LifeThings">
+            <div class = "grid-item a">
+                <h3>Classes I'm taking currently:</h3>
+                <p id="classes">Data 101, Data 104, IndEng 130, CS 70, Full Stack Decal, CAP Career Prep Course</p>
+            </div>
+            <div class = "grid-item b">
+                <h3>RePicture</h3>
+                <p id="repicture">Working as an intern at RePicture under the Data Discovery Program. This is my first time doing the Data Discovery Program at UC Berkeley.</p>
+            </div>
+            <div class = "grid-item c">
+                <h3>DataStory</h3>
+                <p id="datastory">In the DataStory club as a project manager.</p>
+            </div>
+            <div class = "grid-item d">
+                <h3>Things I do for fun:</h3>
+                <p id="do for fun">Picnicking, reading, rubiks cubes, concerts.</p>
+            </div>
+        </div>
+    </body>
